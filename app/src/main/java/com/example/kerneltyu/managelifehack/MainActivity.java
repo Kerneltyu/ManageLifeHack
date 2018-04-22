@@ -86,7 +86,6 @@ public class MainActivity extends AppCompatActivity {
 
         btn = findViewById(R.id.start);
         btn.setText("Start");
-        //btn.setOnClickListener(new startButtonClickListener(handler, runnable));
         btn.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v){
@@ -123,7 +122,6 @@ public class MainActivity extends AppCompatActivity {
                 }
             }
         });
-        //finishButton.setOnClickListener(new lapButtonListener(handler, runnable, counter));
 
         resetButton = findViewById(R.id.reset);
         resetButton.setText(R.string.reset_button);
@@ -141,7 +139,6 @@ public class MainActivity extends AppCompatActivity {
                 }
             }
         });
-        //resetButton.setOnClickListener(new resetButtonClickListener(counterText, counter));
 
         recordButton = findViewById(R.id.record);
         recordButton.setText(R.string.record_button);
